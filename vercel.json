@@ -1,7 +1,7 @@
 {
-  "buildCommand": "npm run build",
+  "framework": "vite",
   "outputDirectory": "dist",
-  "devCommand": "npm run dev",
-  "installCommand": "npm install",
-  "framework": "vite"
+  "buildCommand": "chmod +x ./node_modules/.bin/vite && npm run build",
+  "devCommand": "vite dev",
+  "installCommand": "npm install"
 }
